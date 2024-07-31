@@ -1,0 +1,62 @@
+#myvideo{
+    position: absolute;
+    margin: none;
+    bottom: 0;
+    width: 100%;
+    min-height: 100%;
+    box-sizing: border-box;
+}
+.text{
+    position: relative;
+    top: 46%;
+    left: 2%;
+    text-align: left;
+    color: rgba(66, 65, 65, 0.943);
+    margin-left: 0;
+    right: 60%;
+    font-size: 18px;
+    font-weight: bolder;
+
+}
+video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 10%;
+    min-height: 20%;
+    transform: translate(-50%,-50%);
+    z-index: -100;
+}
+.h1{
+    color: rgb(22, 22, 202);
+    position: relative;
+}
+.b1{
+    color: rgb(227, 9, 63);
+}
+.Best{
+    color: white;
+    position: absolute;
+}
+.text{
+    position: relative;
+}
+#f3{
+    border: 1px solid rgb(80, 80, 180);
+}
+a{
+    text-decoration-line: none;
+    background-color: rgb(228, 15, 75);
+    color: white;
+    padding: 6px;
+    border-radius: 5px;
+}
+p::first-letter{
+    font-size: 29px;
+}
+a:hover{
+    transform: scale(1.03);
+    opacity: 0.5;
+}
+
+
